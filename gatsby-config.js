@@ -15,6 +15,13 @@ module.exports = {
         display: 'swap'
       }
     },
+    {
+      resolve: `gatsby-source-instagram`,
+      options: {
+        username: `jakubchabrowski`,
+        instagram_id: 3094440938,
+      },
+    },
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,

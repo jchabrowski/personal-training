@@ -1,11 +1,11 @@
 import React from "react";
 import { Link } from "gatsby";
 import 'bootstrap/dist/css/bootstrap.min.css';
-
 import Layout from "../components/layout";
 import SEO from "../components/seo";
-import Img from 'gatsby-image';
-import barbell from '../images/barbell.jpg'
+import anthonySquare from '../images/anthony-kwadrat.jpg';
+import jakubSquare from '../images/jakub-profil2.jpg';
+
 
 
 const IndexPage = () => (
@@ -19,23 +19,35 @@ const IndexPage = () => (
       </div>
     </div>
 
-    <div className="container d-flex">
-      <div className="container mr-0 px-auto col-sm-12 col-md-6">
-        <h4>O mnie</h4>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis doloremque deleniti optio numquam, quia cupiditate vel aperiam. Rerum ipsam alias quam, corrupti neque sint commodi? Ullam explicabo consequatur molestias perspiciatis?</p>
+    <div className="container d-flex pt-3">
+      <div className="container mr-0 px-4 col-sm-12 col-md-6">
+        <h2>O mnie</h2>
+        <p>Jestem magistrem fizjoterapii AWFiS Gdańsk, trenerem personalnym z wieloletnim doświadczeniem, pasjonatem układu ruchu człowieka i kinezjologii.</p>
+        <p>W pracy z klientami priorytetem jest dla mnie nauczenie fundamentalnych wzorców ruchowych, umożliwiających bezpieczne:</p>
+        <ul>
+          <li>Doskonalenie sprawności ruchowej</li>
+          <li>Zwiększenie siły maksymalnej</li>
+          <li>Rekompozycję składu masy ciała</li>
+          <li>Przygotowanie motoryczne i prewencję kontuzji</li>
+          <li>Osiągnięcie Twoich indywidualnych celów sylwetkowych</li>
+        </ul>
       </div>
-      <div className="container barbell-img pl-0 ml-0 col-sm-12 col-md-6">
-        <p className="lead">image will be over here</p>
+      <div className="container pl-0 ml-0 col-sm-12 col-md-6">
+        <img src={jakubSquare} alt="anthony" className="barbell-img mb-zero"/>
       </div>
     </div>
 
     <div className="container d-flex mb-3">
-        <div className="container barbell-img mr-0 pr-0 col-sm-12 col-md-6">
-          <p className="lead">image placeholder</p>
+        <div className="container mr-0 pr-0 col-sm-12 col-md-6">
+          <img src={anthonySquare} alt="anthony" className="barbell-img"/>
         </div>
-        <div className="container pl-3 pt-2 ml-0 col-sm-12 col-md-6">
-          <h4>Trening personalny</h4>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed quia sequi distinctio ut vel. Saepe veritatis quos expedita eligendi explicabo accusantium praesentium, ex nemo nostrum veniam illo ad. Neque, ad!</p>
+        <div className="container px-4 pt-2 ml-0 col-sm-12 col-md-6">
+          <h2>Trening personalny</h2>
+          <p>Na naszej pierwszej konsultacji przeprowadzę z Tobą wywiad i trening, po czym dobiorę najefektywniejszy plan działania. Możemy następnie zacząć trenować na odpowiadającej Tobie siłowni na terenie trójmiasta.</p>
+          <p>Treningi prowadzę w największych obiektach na terenie Gdyni i Gdańska. <Link to="/"><strong>Napisz do mnie</strong></Link> aby uzyskać więcej informacji i ustalić miejsce naszego spotkania.</p>
+          <h2>Treningi w dobie epidemii</h2>
+          <p>Współpraca z klientami jest dostosowywana do aktualnych zaleceń sanitarno-epidemiologicznych, obowiązujących na terenie województwa Pomorskiego.</p>
+          <p>Spotkajmy się na świeżym powietrzu, bądź zainteresuj się współpracą online!</p>
         </div>
       </div>
 
@@ -44,14 +56,14 @@ const IndexPage = () => (
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus reprehenderit modi maiores asperiores totam animi aspernatur vitae, dolores unde ratione laudantium tempora accusamus quam vel officia, id nihil, facere dolor.</p>
       
         <div className="card-deck px-auto mx-auto col-md-12 py-3">
-          <div className="card lake">
+          <div className="card pose-hold">
             <div className="card-body">
               <h4 className="card-title">Trening Personalny</h4>
               <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
               <button className="btn-lg btn-transparent">POZNAJ SZCZEGÓŁY</button>
             </div>
           </div>
-          <div className="card lake">
+          <div className="card pose-front">
             <div className="card-body">
               <h4 className="card-title">Pierwsza konsultacja</h4>
               <p className="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
@@ -64,7 +76,7 @@ const IndexPage = () => (
               <button className="btn-lg btn-transparent">POZNAJ SZCZEGÓŁY</button>
             </div>
           </div>
-          <div className="card lake">
+          <div className="card pose-pull">
             <div className="card-body">
               <h4 className="card-title">Współpraca online</h4>
               <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
@@ -72,6 +84,11 @@ const IndexPage = () => (
             </div>
           </div>
         </div>
+      </div>
+
+      <div className="container py-4 px-4">
+        <h3 className="heading">Media społecznościowe</h3>
+        <p>Sprawdź w wolnej chwili</p>
       </div>
 
       <div className="container pb-5 px-4">
