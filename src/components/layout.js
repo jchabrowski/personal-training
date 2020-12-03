@@ -8,10 +8,9 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
-
 import SiteNavbar from './navbar'
 import "./layout.css"
-import { Col, Row } from 'react-bootstrap';
+import { Col } from 'react-bootstrap';
 import '../styles/all.css'
 
 const Layout = ({ children }) => {
@@ -26,10 +25,10 @@ const Layout = ({ children }) => {
   `)
 
   return (
-    <div className="container wrapper">
+    <div className="container wrapper col-12">
       <Col md={12} lg={12} className="align-self-center px-0">
-        <SiteNavbar siteTitle={data.site.siteMetadata?.title || `Trening`} />
-          <div className="container px-0">{children}</div>
+        <SiteNavbar siteTitle={data.site.siteMetadata?.title || `Jakub Chabrowski - Trener Personalny Gdynia`} />
+          <div className="container content-wrapper col-sm-12 px-0">{children}</div>
       </Col>
     </div>
       

@@ -1,0 +1,42 @@
+.portrait {
+  background-image: url("../images/jakub-portret3.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: top center;
+  color: white;
+  bottom: 0;
+  border-radius: 0px;
+  min-height: 100%;
+  min-height: 100vh;
+  min-width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.portrait .info {
+  margin-left: 10%;
+  display: inline-block;
+}
+.portrait h2, .portrait h3 {
+  font-family: "Raleway", sans-serif;
+  color: #f3f3f3;
+}
+.portrait .btn-jumbo {
+  width: 30%;
+  color: #f3f3f3;
+  background: transparent;
+  border: 1px solid;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-weight: 400;
+  transition: background 0.5s ease, color 0.5s ease, font-weight 0.5s ease;
+}
+.portrait .btn-jumbo:hover {
+  background: white;
+  border: 1px solid white;
+  color: #00B482;
+  font-weight: 800;
+}
+
+/*# sourceMappingURL=portrait.css.map */

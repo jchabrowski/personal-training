@@ -3,12 +3,14 @@ $Raleway-font: 'Raleway', sans-serif;
 
 $default-font-color: #444444;
 $contrast-font-color: white;
+$growth-green-color: #33CC66;
+$growth-calm-color: #00B482;
 
 body {
   background-color: rgba(255,255,255);
   font-family: $Raleway-font;
   font-weight: 500;
-  font-size: 1.1rem;
+  font-size: 1rem;
 
   h2, h3, h4 {
     font-family: $Raleway-font;
@@ -31,41 +33,21 @@ body {
     padding: 0px 0px;
   }
 
-  .portrait {
-    background-image: url('../images/jakub-portret3.jpg');
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: top center;
-    color: $contrast-font-color;
-    bottom: 0;
-    border-radius: 0px;
-    min-height:100%;
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-
-    h2, h3 {
-      font-family: $Raleway-font;
-      color: #f3f3f3;
-    }
-
-    .btn-jumbo {
-      width: 30%;
-      color: #f3f3f3;
-      background: transparent;
-      border: 1px solid;
-      font-family: $Raleway-font;
-      font-weight: 600;
-      text-transform: uppercase;
-      transition: background .3s ease-in-out;
-  
-      &:hover {
-        background: $default-font-color;
-        border: 1px solid;
-      }
-    }
+  .content-wrapper {
+    border: 1px white;
+    box-shadow:
+      0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+      0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+      0 12.5px 10px rgba(0, 0, 0, 0.06),
+      0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+      0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+      0 100px 80px rgba(0, 0, 0, 0.12);
+    padding: 0px 0px;
   }
+}
+
+.growth-style {
+  color: $growth-calm-color;
 }
 
 .barbell-img {
@@ -77,13 +59,13 @@ body {
 }
 
   .navbar {
-    background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
-    font-weight: 600;
     text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 700;
     font-family: $Raleway-font;
   
     .navBrand {
-      padding: 10px 30px;
+      padding: 10px 50px;
     }
   
     .navInfo {
@@ -93,6 +75,12 @@ body {
   
     .navLink {
       padding: 10px 30px;
+      margin: 0px 10px;
+      color: black !important;
+
+      &:hover {
+        color: $growth-calm-color !important;
+      }
     }
   }
 
@@ -149,14 +137,14 @@ body {
     width: 100%;
     color: $contrast-font-color;
     background: transparent;
-    border: 1px solid black;
+    border: 1px solid $contrast-font-color;
     font-family: $Raleway-font;
     font-weight: 700;
     transition: background .3s ease-in-out;
   
     &:hover {
       background: #ffffff;
-      color: $default-font-color;
+      color: $growth-calm-color;
     }
   }
 
@@ -172,20 +160,20 @@ body {
   }
   
   .btn-form {
-    background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
+    background-color: white;
     min-height: 50px;
     width: 50%;
     align-self: center;
     margin-top: 30px;
-    border: none;
-    border-radius: 10px;
+    border: 1px solid black;
+    border-radius: 3px;
     font-family: $Raleway-font;
     font-weight: 700;
     text-transform: uppercase;
     transition: background .3s ease-in-out;
       &:hover {
         background: #ffffff;
-        border: 1px solid black;
+        color: $growth-calm-color;
       }
   }
 

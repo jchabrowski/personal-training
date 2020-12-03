@@ -5,19 +5,14 @@ import Layout from "../components/layout";
 import SEO from "../components/seo";
 import anthonySquare from '../images/anthony-kwadrat.jpg';
 import jakubSquare from '../images/jakub-profil2.jpg';
+import Portrait from '../components/portrait';
 
 
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Trening" />
-    <div className="container portrait">
-      <div>
-        <h2>Jakub Chabrowski</h2>
-        <h3>Moim celem jest zadbanie o Twoje zdrowie</h3>
-        <button className="btn btn-primary btn-lg btn-jumbo" href="#">Dowiedz się więcej</button>
-      </div>
-    </div>
+    <Portrait />
 
     <div className="container d-flex pt-3">
       <div className="container mr-0 px-4 col-sm-12 col-md-6">
@@ -44,7 +39,7 @@ const IndexPage = () => (
         <div className="container px-4 pt-2 ml-0 col-sm-12 col-md-6">
           <h2>Trening personalny</h2>
           <p>Na naszej pierwszej konsultacji przeprowadzę z Tobą wywiad i trening, po czym dobiorę najefektywniejszy plan działania. Możemy następnie zacząć trenować na odpowiadającej Tobie siłowni na terenie trójmiasta.</p>
-          <p>Treningi prowadzę w największych obiektach na terenie Gdyni i Gdańska. <Link to="/"><strong>Napisz do mnie</strong></Link> aby uzyskać więcej informacji i ustalić miejsce naszego spotkania.</p>
+          <p>Treningi prowadzę w największych obiektach na terenie Gdyni i Gdańska. <Link to="/" className="growth-style"><strong>Napisz do mnie</strong></Link> aby uzyskać więcej informacji i ustalić miejsce naszego spotkania.</p>
           <h2>Treningi w dobie epidemii</h2>
           <p>Współpraca z klientami jest dostosowywana do aktualnych zaleceń sanitarno-epidemiologicznych, obowiązujących na terenie województwa Pomorskiego.</p>
           <p>Spotkajmy się na świeżym powietrzu, bądź zainteresuj się współpracą online!</p>
@@ -60,7 +55,7 @@ const IndexPage = () => (
             <div className="card-body">
               <h4 className="card-title">Trening Personalny</h4>
               <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <button className="btn-lg btn-transparent">POZNAJ SZCZEGÓŁY</button>
+              <button className="btn-lg btn-transparent">SZCZEGÓŁY</button>
             </div>
           </div>
           <div className="card pose-front">
@@ -73,14 +68,14 @@ const IndexPage = () => (
                 <li>lorem</li>
                 <li>lorem</li>
               </ul>
-              <button className="btn-lg btn-transparent">POZNAJ SZCZEGÓŁY</button>
+              <button className="btn-lg btn-transparent">SZCZEGÓŁY</button>
             </div>
           </div>
           <div className="card pose-pull">
             <div className="card-body">
               <h4 className="card-title">Współpraca online</h4>
               <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-              <button className="btn-lg btn-transparent">DOWIEDZ SIĘ WIĘCEJ</button>
+              <button className="btn-lg btn-transparent">WIĘCEJ</button>
             </div>
           </div>
         </div>
@@ -88,7 +83,6 @@ const IndexPage = () => (
 
       <div className="container py-4 px-4">
         <h3 className="heading">Media społecznościowe</h3>
-        <p>Sprawdź w wolnej chwili</p>
       </div>
 
       <div className="container pb-5 px-4">
@@ -111,9 +105,6 @@ const IndexPage = () => (
             </div>
         </form>
       </div>
-
-      
-    <Link to="/about/">About me</Link> <br />
   </Layout>
 )
 

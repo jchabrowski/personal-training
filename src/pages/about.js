@@ -1,16 +1,33 @@
-import React from "react"
-import { Link } from "gatsby"
+// import React from "react"
+// import { useStaticQuery, graphql } from "gatsby"
+// import Img from "gatsby-image"
+// import Layout from '../components/layout'
 
-import Layout from "../components/layout"
-import SEO from "../components/seo"
+// const Image = () => {
+//   const data = useStaticQuery(graphql`
+//     {
+//       allInstaNode {
+//         edges {
+//           node {
+//             localFile {
+//               publicURL
+//               childImageSharp {
+//                 fluid {
+//                   originalImg
+//                 }
+//               }
+//             }
+//           }
+//         }
+//       }
+//     }
+//   `)
 
-const SecondPage = () => (
-  <Layout>
-    <SEO title="O mnie" />
-    <h1>Hi from the second page</h1>
-    <p>Welcome to page 2</p>
-    <Link to="/">Go back to the homepage</Link>
-  </Layout>
-)
+//   return (
+//     <Layout>
+//       <Img fluid={data.allInstaNode.edges.node.localFile.fluid.originalImg} />
+//     </Layout>
+//   )
+// }
 
-export default SecondPage
+// export default Image
