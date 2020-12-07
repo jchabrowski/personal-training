@@ -1,0 +1,17 @@
+.footer {
+  background-color: black;
+  color: #85868c;
+  min-height: 150px;
+  font-size: 0.8rem;
+}
+.footer .stealth-style {
+  color: #506D76;
+}
+.footer .question {
+  color: white;
+}
+.footer .anwser {
+  color: #85868c;
+}
+
+/*# sourceMappingURL=footer.css.map */

@@ -1,7 +1,7 @@
 // import { Link } from "gatsby"
 import React, { useState, useRef, useEffect } from "react"
 import {Navbar, Nav } from 'react-bootstrap'
-import '../styles/all.css'
+import '../../styles/all.css'
 
 const SiteNavbar = () => {
   const [navBackground, setNavBackground] = useState(false)

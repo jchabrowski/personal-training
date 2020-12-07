@@ -1,8 +1,9 @@
 import React from 'react';
+import './contact.css'
 
 const ContactForm = () => {
   return (
-    <div className="container pb-5 px-4">
+    <div className="container contact py-5 px-4">
       <h3 className="heading">Skontaktuj się ze mną</h3>
       <form>
         <row className="d-flex py-3">

@@ -34,9 +34,13 @@ import Img from "gatsby-image"
     })
 
     return (
-      <div className="container d-flex row align-items-center"> 
-        {instagramFeed}
-      </div>  
+      <div className="container py-4 px-4">
+        <h3 className="heading py-3">Podejrzyj mnie na instagramie</h3>
+        <div className="container d-flex row align-items-center"> 
+          {instagramFeed}
+        </div>
+      </div>
+        
     )
   }
 
