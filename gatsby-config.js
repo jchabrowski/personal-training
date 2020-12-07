@@ -15,12 +15,12 @@ module.exports = {
         display: 'swap'
       }
     },
-    // {
-    //   resolve: `gatsby-source-instagram`,
-    //   options: {
-    //     username: `3094440938`
-    //   },
-    // },
+    {
+      resolve: `gatsby-source-instagram`,
+      options: {
+        username: `3094440938`
+      },
+    },
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,

@@ -6,6 +6,9 @@ import SEO from "../components/seo";
 import anthonySquare from '../images/anthony-kwadrat.jpg';
 import jakubSquare from '../images/jakub-profil2.jpg';
 import Portrait from '../components/portrait';
+import ContactForm from '../components/contact';
+import InstagramFeed from "../components/instagramFeed";
+import Footer from "../components/footer";
 
 
 
@@ -19,12 +22,12 @@ const IndexPage = () => (
         <h2>O mnie</h2>
         <p>Jestem magistrem fizjoterapii AWFiS Gdańsk, trenerem personalnym z wieloletnim doświadczeniem, pasjonatem układu ruchu człowieka i kinezjologii.</p>
         <p>W pracy z klientami priorytetem jest dla mnie nauczenie fundamentalnych wzorców ruchowych, umożliwiających bezpieczne:</p>
-        <ul>
-          <li>Doskonalenie sprawności ruchowej</li>
-          <li>Zwiększenie siły maksymalnej</li>
-          <li>Rekompozycję składu masy ciała</li>
-          <li>Przygotowanie motoryczne i prewencję kontuzji</li>
-          <li>Osiągnięcie Twoich indywidualnych celów sylwetkowych</li>
+        <ul id="benefit-list">
+          <li> Doskonalenie sprawności ruchowej</li>
+          <li> Zwiększenie siły maksymalnej</li>
+          <li> Rekompozycję składu masy ciała</li>
+          <li> Przygotowanie motoryczne i prewencję kontuzji</li>
+          <li> Osiągnięcie Twoich indywidualnych celów sylwetkowych</li>
         </ul>
       </div>
       <div className="container pl-0 ml-0 col-sm-12 col-md-6">
@@ -82,29 +85,12 @@ const IndexPage = () => (
       </div>
 
       <div className="container py-4 px-4">
-        <h3 className="heading">Media społecznościowe</h3>
+        <h3 className="heading">Podejrzyj mnie na instagramie</h3>
+        <InstagramFeed />
       </div>
 
-      <div className="container pb-5 px-4">
-        <h3 className="heading">Skontaktuj się ze mną</h3>
-        <form>
-          <row className="d-flex py-3">
-            <div className="form-group col-md-6">
-              <label for="name-surname">Imię i nazwisko</label>
-              <input type="name" className="form-control" id="name-surname" placeholder="Imię i nazwisko"/>
-            </div>
-            <div className="form-group col-md-6">
-              <label for="email">email</label>
-              <input type="email" className="form-control" id="nemail" placeholder="Wprowadź swój adres email"/>
-            </div>
-          </row>
-            <div className="container form-group col-md-12 d-flex flex-column justify-content-center">
-              <label for="message">Twoja wiadomość</label>
-              <textarea className="form-control" id="message" rows="4" placeholder="W czym mogę Ci pomóc?"></textarea>
-              <button className="btn-form">Wyślij</button>
-            </div>
-        </form>
-      </div>
+      <ContactForm />
+      <Footer />
   </Layout>
 )
 

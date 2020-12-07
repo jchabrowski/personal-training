@@ -1,33 +1,43 @@
 // import React from "react"
 // import { useStaticQuery, graphql } from "gatsby"
 // import Img from "gatsby-image"
-// import Layout from '../components/layout'
 
-// const Image = () => {
-//   const data = useStaticQuery(graphql`
-//     {
-//       allInstaNode {
-//         edges {
-//           node {
-//             localFile {
-//               publicURL
-//               childImageSharp {
-//                 fluid {
-//                   originalImg
+//   const InstagramFeed = () => {
+//     const data = useStaticQuery(graphql`
+//       {
+//         allInstaNode {
+//           edges {
+//             node {
+//               localFile {
+//                 publicURL
+//                 childImageSharp {
+//                   fluid {
+//                     ...GatsbyImageSharpFluid
+//                   }
+//                   id
 //                 }
 //               }
 //             }
 //           }
 //         }
 //       }
-//     }
-//   `)
+//     `)
 
-//   return (
-//     <Layout>
-//       <Img fluid={data.allInstaNode.edges.node.localFile.fluid.originalImg} />
-//     </Layout>
-//   )
-// }
+//     let arrayOfImages = data.allInstaNode.edges;
+//     let amountOfImages = 6;
 
-// export default Image
+//     let instagramFeed = arrayOfImages.slice(0, amountOfImages).map((item, i) => {
+//       return(
+//         <div key={i} className="container col-4">
+//           <Img fluid={item.node.localFile.childImageSharp.fluid}/>
+//         </div>)
+//     })
+
+//     return (
+//         <div className="container d-flex row col-6 align-items-center"> 
+//         {instagramFeed}
+//       </div>  
+//     )
+//   }
+
+// export default InstagramFeed

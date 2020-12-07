@@ -44,7 +44,21 @@ body {
       0 100px 80px rgba(0, 0, 0, 0.12);
     padding: 0px 0px;
   }
+
+  #benefit-list {
+    
+    li {
+      list-style: none;
+    }
+  
+    li::before {
+      font-weight: 700;
+      color: $growth-calm-color;
+      content: "\003E";
+    }
+  }
 }
+
 
 .growth-style {
   color: $growth-calm-color;
