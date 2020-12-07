@@ -20,7 +20,7 @@ const SiteNavbar = () => {
       }
     }, [])
   return (
-    <Navbar expand="md" fixed="top" style={{ transition: '1s ease',backgroundColor: navBackground ? 'white' : 'transparent'}}>
+    <Navbar expand="md" fixed="top" style={{ transition: '1s ease', backgroundColor: navBackground ? 'white' : 'transparent'}}>
       <Navbar.Brand href="#home" className="navBrand px-1">JC</Navbar.Brand>
       <Nav className="mx-auto navInfo">
         <Nav.Link href="#home" className="navLink">O mnie</Nav.Link>

@@ -1,0 +1,18 @@
+$growth-calm-color: #00B482;
+
+.frame {
+  border: 1px solid whitesmoke;
+  border-radius: 15px;
+}
+
+#benefit-list {
+  li {
+    list-style: none;
+  }
+
+  li::before {
+    font-weight: 700;
+    color: $growth-calm-color;
+    content: "\003E";
+  }
+}

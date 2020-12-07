@@ -1,11 +1,12 @@
 import React from 'react';
 import anthonySquare from '../../images/anthony-kwadrat.jpg'
 import { Link } from "gatsby";
-import '../../styles/all.css'
+import '../../styles/all.css';
+import '../FirstCard/firstCard.css'
 
 const SecondCard = () => {
   return (
-    <div className="container d-flex mb-3">
+    <div className="container frame d-flex py-3 my-3">
       <div className="container mr-0 pr-0 col-sm-12 col-md-6">
         <img src={anthonySquare} alt="anthony" className="barbell-img"/>
       </div>

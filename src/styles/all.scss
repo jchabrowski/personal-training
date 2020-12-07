@@ -44,19 +44,6 @@ body {
       0 100px 80px rgba(0, 0, 0, 0.12);
     padding: 0px 0px;
   }
-
-  #benefit-list {
-    
-    li {
-      list-style: none;
-    }
-  
-    li::before {
-      font-weight: 700;
-      color: $growth-calm-color;
-      content: "\003E";
-    }
-  }
 }
 
 
@@ -64,13 +51,13 @@ body {
   color: $growth-calm-color;
 }
 
-.barbell-img {
-  max-height: 100%;
-  width: 100%;
-  &.mb-zero {
-    margin-bottom: 0px;
-  }
-}
+// .barbell-img {
+//   max-height: 100%;
+//   width: 100%;
+//   &.mb-zero {
+//     margin-bottom: 0px;
+//   }
+// }
 
   .navbar {
     text-transform: uppercase;

@@ -1,6 +1,7 @@
-import React from "react"
-import { useStaticQuery, graphql } from "gatsby"
-import Img from "gatsby-image"
+import React from "react";
+import { useStaticQuery, graphql } from "gatsby";
+import Img from "gatsby-image";
+import '../FirstCard/firstCard.css'
 
   const InstagramFeed = () => {
     const data = useStaticQuery(graphql`
@@ -34,7 +35,7 @@ import Img from "gatsby-image"
     })
 
     return (
-      <div className="container py-4 px-4">
+      <div className="container frame py-3 px-4">
         <h3 className="heading py-3">Podejrzyj mnie na instagramie</h3>
         <div className="container d-flex row align-items-center"> 
           {instagramFeed}
