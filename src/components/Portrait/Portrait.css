@@ -12,14 +12,25 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
-}
-.portrait .info {
-  margin-left: 10%;
-  display: inline-block;
+  opacity: 0.7;
 }
 .portrait h2, .portrait h3 {
   font-family: "Raleway", sans-serif;
   color: #f3f3f3;
+}
+.portrait .info {
+  position: relative;
+  top: 10em;
+  margin-left: 10%;
+  max-width: 70%;
+  display: inline-block;
+}
+.portrait .name {
+  color: #85868c;
+}
+.portrait .growth-darker {
+  color: #00B482;
+  font-weight: bold;
 }
 .portrait .btn-jumbo {
   width: 30%;

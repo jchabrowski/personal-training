@@ -5,6 +5,7 @@ $default-font-color: #444444;
 $contrast-font-color: white;
 $growth-green-color: #33CC66;
 $growth-calm-color: #00B482;
+$growth-darker-color: #006E42;
 
 body {
   background-color: rgba(255,255,255);
@@ -49,6 +50,10 @@ body {
 
 .growth-style {
   color: $growth-calm-color;
+
+  &.bold {
+    font-weight: bold;
+  }
 }
 
 // .barbell-img {
@@ -99,10 +104,6 @@ body {
   
     &:hover {
       transform: translate(0px, -10px)
-    }
-  
-    &.lake {
-      background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
     }
 
     &.pose-hold {

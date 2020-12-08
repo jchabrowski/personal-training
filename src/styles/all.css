@@ -25,6 +25,9 @@ body .content-wrapper {
 .growth-style {
   color: #00B482;
 }
+.growth-style.bold {
+  font-weight: bold;
+}
 
 .navbar {
   text-transform: uppercase;
@@ -59,9 +62,6 @@ body .content-wrapper {
 }
 .card:hover {
   transform: translate(0px, -10px);
-}
-.card.lake {
-  background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
 }
 .card.pose-hold {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)), url("../images/pose-hold.jpg");

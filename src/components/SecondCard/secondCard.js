@@ -6,7 +6,7 @@ import '../FirstCard/firstCard.css'
 
 const SecondCard = () => {
   return (
-    <div className="container frame d-flex py-3 my-3">
+    <div className="container frame d-flex py-3 my-3" id="training">
       <div className="container mr-0 pr-0 col-sm-12 col-md-6">
         <img src={anthonySquare} alt="anthony" className="barbell-img"/>
       </div>

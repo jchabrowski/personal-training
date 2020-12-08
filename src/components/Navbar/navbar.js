@@ -21,11 +21,11 @@ const SiteNavbar = () => {
     }, [])
   return (
     <Navbar expand="md" fixed="top" style={{ transition: '1s ease', backgroundColor: navBackground ? 'white' : 'transparent'}}>
-      <Navbar.Brand href="#home" className="navBrand px-1">JC</Navbar.Brand>
+      <Navbar.Brand href="/" className="navBrand px-1">JC</Navbar.Brand>
       <Nav className="mx-auto navInfo">
-        <Nav.Link href="#home" className="navLink">O mnie</Nav.Link>
-        <Nav.Link href="#features" className="navLink">Trening</Nav.Link>
-        <Nav.Link href="#pricing" className="navLink">Kontakt</Nav.Link>
+        <Nav.Link href="/about" className="navLink">O mnie</Nav.Link>
+        <Nav.Link href="#training" className="navLink">Trening</Nav.Link>
+        <Nav.Link href="#contact" className="navLink">Kontakt</Nav.Link>
       </Nav>
       <Nav>
         <Nav.Link>PL</Nav.Link>

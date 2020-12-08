@@ -1,43 +1,22 @@
-// import React from "react"
-// import { useStaticQuery, graphql } from "gatsby"
-// import Img from "gatsby-image"
+import React from "react";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Layout from "../components/layout";
+import SEO from "../components/seo";
+import AboutMe from '../components/About/about-me';
+import ContactForm from '../components/Contact/contact';
+import Footer from "../components/Footer/footer";
 
-//   const InstagramFeed = () => {
-//     const data = useStaticQuery(graphql`
-//       {
-//         allInstaNode {
-//           edges {
-//             node {
-//               localFile {
-//                 publicURL
-//                 childImageSharp {
-//                   fluid {
-//                     ...GatsbyImageSharpFluid
-//                   }
-//                   id
-//                 }
-//               }
-//             }
-//           }
-//         }
-//       }
-//     `)
+  const About = () => {
+    return (
+      <>
+        <Layout>
+          <SEO title="O mnie | Jakub Chabrowski"/>
+          <AboutMe />
+          <ContactForm />
+        </Layout>
+        <Footer />
+      </>
+    )
+  }
 
-//     let arrayOfImages = data.allInstaNode.edges;
-//     let amountOfImages = 6;
-
-//     let instagramFeed = arrayOfImages.slice(0, amountOfImages).map((item, i) => {
-//       return(
-//         <div key={i} className="container col-4">
-//           <Img fluid={item.node.localFile.childImageSharp.fluid}/>
-//         </div>)
-//     })
-
-//     return (
-//         <div className="container d-flex row col-6 align-items-center"> 
-//         {instagramFeed}
-//       </div>  
-//     )
-//   }
-
-// export default InstagramFeed
+export default About

@@ -17,7 +17,8 @@ const Footer = () => {
       <div className="container col-4 d-flex justify-content-center">
         <div>
           <p>developed by <Link to="https://github.com/jchabrowski" target="_blank" className="stealth-style">jchabrowski</Link></p>
-          <p>Jesteś trenerem? Chciałbyś mieć taką stronę?</p>
+          <p className="mb-0">Jesteś trenerem? Chciałbyś mieć taką stronę?</p>
+          <p><Link to="#" className="stealth-style">Napisz do mnie</Link></p>
         </div>
       </div>
     </div>
