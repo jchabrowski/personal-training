@@ -1,7 +1,9 @@
 import React from 'react';
-import '../FirstCard/firstCard.css';
+// import '../FirstCard/firstCard.css';
 import jakubPortret from '../../images/jakub-portret3.jpg';
-import '../../styles/all.css'
+import '../../styles/all.css';
+import './about-me.css';
+import { Link } from "gatsby";
 
 const AboutMe = () => {
   return (
@@ -15,16 +17,17 @@ const AboutMe = () => {
           <p>Współpracując z klientami skupiam się na podniesieniu ich ogólnej sprawności oraz rozwoju siły. Naturalnym efektem naszej współpracy są popularnie pożądane efekty, jak <span className="growth-style bold">redukcja tkanki tłuszczowej</span>, bądź <span className="growth-style bold">zwiększenie masy mięśniowej.</span></p>
         </div>
         <div className="container d-flex col-md-12 col-lg-6 py-3 align-items-center">
-          <img src={jakubPortret}></img>
+          <img src={jakubPortret} alt=""></img>
         </div>
       </div>
 
       <div className="container frame py-3 my-3">
         <div className="container pt-3">
-          <h2>Treningi Personalne</h2>
-          <p>Chicałbyś abym pomógł Ci w osiągnięciu Twoich celów?</p>
-          <p>Dowiedz się czego możesz się spodziewać na pierwszym treningu</p>
-          <button className="btn-form">Pierwszy trening</button>
+          <h2>Treningi personalne</h2>
+          <p>Nawiązanie współpracy wymaga od Ciebie jedynie wykazania inicjatywy.</p>
+          <p>Zdecydowanie łatwiej zdecydować się na <span className="growth-style bold">podjęcie współpracy</span>, wiedząc na czym ma ona polegać.</p>
+          <p>Dowiedz się czego możesz się spodziewać na naszym pierwszym treningu.</p>
+          <Link to="/training"><button className="btn-training">Pierwszy trening</button></Link>
         </div>
       </div>
     </>

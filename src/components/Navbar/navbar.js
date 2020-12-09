@@ -24,7 +24,7 @@ const SiteNavbar = () => {
       <Navbar.Brand href="/" className="navBrand px-1">JC</Navbar.Brand>
       <Nav className="mx-auto navInfo">
         <Nav.Link href="/about" className="navLink">O mnie</Nav.Link>
-        <Nav.Link href="#training" className="navLink">Trening</Nav.Link>
+        <Nav.Link href="/training" className="navLink">Trening</Nav.Link>
         <Nav.Link href="#contact" className="navLink">Kontakt</Nav.Link>
       </Nav>
       <Nav>

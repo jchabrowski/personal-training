@@ -57,8 +57,14 @@ body .content-wrapper {
   transition: 0.3s;
   border: none;
 }
+.card .card-body .card-title {
+  color: #00B482;
+  font-size: 1.4em;
+  text-transform: uppercase;
+}
 .card .card-body h4, .card .card-body p, .card .card-body ul li {
-  color: white;
+  color: #eae5e4;
+  font-size: 1em;
 }
 .card:hover {
   transform: translate(0px, -10px);
@@ -86,7 +92,7 @@ body .content-wrapper {
   position: relative;
   display: inline-block;
   width: 100%;
-  color: white;
+  color: #00B482;
   background: transparent;
   border: 1px solid white;
   font-family: "Raleway", sans-serif;

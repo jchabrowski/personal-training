@@ -9,8 +9,8 @@ const Footer = () => {
         <div>
           <p className="question mb-0">Gdzie trenuję?</p>
           <p className="answer">W Gdyni i Gdańsku.</p>
-          <p className="question mb-0">Czy mogę zadać pytanie, bez zobowiązań treningowych?</p>
-          <p className="answer">Oczywiście.</p>
+          <p className="question mb-0">Gdzie odbywają się treningi typu outdoor?</p>
+          <p className="answer">Gdynia Redłowo</p>
         </div>
       </div>
 
