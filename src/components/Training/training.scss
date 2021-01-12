@@ -22,3 +22,12 @@ $growth-calm-color: #00B482;
       color: $growth-calm-color;
     }
 }
+
+#benefit-list li {
+  list-style: none;
+}
+#benefit-list li::before {
+  font-weight: 700;
+  color: #00B482;
+  content: ">";
+}

@@ -24,7 +24,6 @@ const AboutMe = () => {
       <div className="container frame py-3 my-3">
         <div className="container pt-3">
           <h2>Treningi personalne</h2>
-          <p>Nawiązanie współpracy wymaga od Ciebie jedynie wykazania inicjatywy.</p>
           <p>Zdecydowanie łatwiej zdecydować się na <span className="growth-style bold">podjęcie współpracy</span>, wiedząc na czym ma ona polegać.</p>
           <p>Dowiedz się czego możesz się spodziewać na naszym pierwszym treningu.</p>
           <Link to="/training"><button className="btn-training">Pierwszy trening</button></Link>

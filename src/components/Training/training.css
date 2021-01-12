@@ -20,4 +20,14 @@
   color: #00B482;
 }
 
+#benefit-list li {
+  list-style: none;
+}
+
+#benefit-list li::before {
+  font-weight: 700;
+  color: #00B482;
+  content: ">";
+}
+
 /*# sourceMappingURL=training.css.map */

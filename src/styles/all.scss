@@ -56,14 +56,6 @@ body {
   }
 }
 
-// .barbell-img {
-//   max-height: 100%;
-//   width: 100%;
-//   &.mb-zero {
-//     margin-bottom: 0px;
-//   }
-// }
-
   .navbar {
     text-transform: uppercase;
     font-size: 1.2rem;
@@ -104,8 +96,6 @@ body {
         text-transform: uppercase;
       }
       h4, p, ul li {
-        
-        // color: $contrast-font-color;
         color: #eae5e4;
         font-size: 1em;
       }
@@ -119,7 +109,7 @@ body {
       background: 
         linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.9)),
         url('../images/pose-hold.jpg');
-      background-size: contain;
+      background-size: 100%;
       background-repeat: no-repeat;
       background-position: center;
     }
@@ -127,7 +117,7 @@ body {
       background: 
         linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.9)),
         url('../images/pose-front.jpg');
-      background-size: contain;
+      background-size: 100%;
       background-repeat: no-repeat;
       background-position: center;
     }
@@ -135,7 +125,7 @@ body {
       background: 
         linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.9)),
         url('../images/pose-pull.jpg');
-      background-size: contain;
+      background-size: 100%;
       background-repeat: no-repeat;
       background-position: center;
     }
@@ -143,9 +133,11 @@ body {
   }
 
   .btn-transparent {
-    position: relative;
-    display: inline-block;
-    width: 100%;
+    position: absolute;
+    width: 80%;
+    left: 10%;
+    right: 10%;
+    bottom: 10%;
     color: $growth-calm-color;
     background: transparent;
     border: 1px solid $contrast-font-color;

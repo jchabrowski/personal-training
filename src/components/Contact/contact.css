@@ -2,3 +2,9 @@
   border: 1px solid whitesmoke;
   border-radius: 15px;
 }
+
+#email, #name-surname, #message {
+  border-left: none;
+  border-right: none;
+  border-top: none;
+}

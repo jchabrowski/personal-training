@@ -13,17 +13,17 @@ const Training = () => {
           <h2>Pierwszy trening</h2>
           <p>Nasze pierwsze spotkanie będzie składało się z krótkiego wywiadu oraz treningu, mającego na celu sprawdzenie Twoich możliwości ruchowych (bez stresu, każdy gdzieś musi zacząć) i ustalenia pierwszych celów treningowych.</p>
           <p>Zapytam Cię między innymi o:</p>
-          <ul>
-            <li>Twoje relacje z aktywnością fizyczną</li>
-            <li>Potencjalne przeciwwskazania i historię kontuzji</li>
-            <li>Cel treningowy, który chcesz osiągnąć</li>
-            <li>Styl życia i nawyki</li>
+          <ul id="benefit-list">
+            <li> Twoje relacje z aktywnością fizyczną</li>
+            <li> Potencjalne przeciwwskazania i historię kontuzji</li>
+            <li> Cel treningowy, który chcesz osiągnąć</li>
+            <li> Styl życia i nawyki</li>
           </ul>
           <p>Przeprowadzę z Tobą następnie ogólnorozwojowy trening, zawierający podstawowe testy funkcjonalne, dzięki którym będę mógł odnaleźć i ocenić "słabe ogniwa" w Twoim aparacie ruchu.</p>
           <p>Po takim spotkaniu będę posiadał niezbędną wiedzę aby dobrać odpowiednie środki i ułożyć dalszy plan naszej współpracy.</p>
         </div>
         <div className="container d-flex col-md-12 col-lg-6 py-3 align-items-center">
-          <img src={anthonySquare} alt=""></img>
+          <img src={anthonySquare} alt="anthony"></img>
         </div>
       </div>
 

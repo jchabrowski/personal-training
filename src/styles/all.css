@@ -71,27 +71,29 @@ body .content-wrapper {
 }
 .card.pose-hold {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)), url("../images/pose-hold.jpg");
-  background-size: contain;
+  background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
 }
 .card.pose-front {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)), url("../images/pose-front.jpg");
-  background-size: contain;
+  background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
 }
 .card.pose-pull {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)), url("../images/pose-pull.jpg");
-  background-size: contain;
+  background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .btn-transparent {
-  position: relative;
-  display: inline-block;
-  width: 100%;
+  position: absolute;
+  width: 80%;
+  left: 10%;
+  right: 10%;
+  bottom: 10%;
   color: #00B482;
   background: transparent;
   border: 1px solid white;
