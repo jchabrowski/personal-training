@@ -59,7 +59,7 @@ body .content-wrapper {
 }
 .card .card-body .card-title {
   color: #00B482;
-  font-size: 1.4em;
+  font-size: 1.2em;
   text-transform: uppercase;
 }
 .card .card-body h4, .card .card-body p, .card .card-body ul li {
@@ -70,19 +70,19 @@ body .content-wrapper {
   transform: translate(0px, -10px);
 }
 .card.pose-hold {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)), url("../images/pose-hold.jpg");
+  background: linear-gradient(rgba(40, 40, 40, 0.85), rgba(15, 15, 15, 0.95)), url("../images/pose-hold.jpg");
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
 }
 .card.pose-front {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)), url("../images/pose-front.jpg");
+  background: linear-gradient(rgba(40, 40, 40, 0.85), rgba(15, 15, 15, 0.95)), url("../images/pose-front.jpg");
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
 }
 .card.pose-pull {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)), url("../images/pose-pull.jpg");
+  background: linear-gradient(rgba(40, 40, 40, 0.85), rgba(15, 15, 15, 0.95)), url("../images/pose-pull.jpg");
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;

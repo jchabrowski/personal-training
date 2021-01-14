@@ -2,3 +2,7 @@
   position: absolute;
   bottom: 10%;
 } */
+
+#no-decoration {
+  list-style: none;
+}
