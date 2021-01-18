@@ -4,7 +4,7 @@ import './contact.css'
 const ContactForm = () => {
   return (
     <div className="container frame contact py-3 mt-3 px-4" id="contact">
-      <h3 className="heading py-3">Skontaktuj się ze mną</h3>
+      <h2 className="py-3">Skontaktuj się ze mną</h2>
       <form>
         <row className="d-flex py-3">
           <div className="form-group col-md-6">

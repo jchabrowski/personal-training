@@ -3,6 +3,7 @@
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: top center;
+  position: relative;
   color: white;
   bottom: 0;
   border-radius: 0px;
@@ -14,25 +15,26 @@
   flex-direction: column;
   opacity: 0.7;
 }
-.portrait h2, .portrait h3 {
-  font-family: "Raleway", sans-serif;
-  color: #f3f3f3;
-}
-.portrait .info {
-  position: relative;
-  top: 10em;
+
+.info {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 70vh;
+  bottom: 0;
   margin-left: 10%;
   max-width: 70%;
   display: inline-block;
 }
-.portrait .name {
-  color: #85868c;
+.info h2, .info h3 {
+  font-family: "Raleway", sans-serif;
+  color: #f3f3f3;
 }
-.portrait .growth-darker {
+.info .growth-darker {
   color: #00B482;
   font-weight: bold;
 }
-.portrait .btn-jumbo {
+.info .btn-jumbo {
   width: 30%;
   color: #f3f3f3;
   background: transparent;
@@ -43,7 +45,7 @@
   font-weight: 400;
   transition: background 0.5s ease, color 0.5s ease, font-weight 0.5s ease;
 }
-.portrait .btn-jumbo:hover {
+.info .btn-jumbo:hover {
   background: white;
   border: 1px solid white;
   color: #00B482;

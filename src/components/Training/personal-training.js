@@ -2,7 +2,6 @@ import React from 'react';
 import anthonySquare from '../../images/anthony-kwadrat.jpg'
 import '../../styles/all.css';
 import './training.css';
-import { Link } from "gatsby";
 import TrainingCards from './training-cards/training-cards';
 
 const Training = () => {

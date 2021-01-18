@@ -12,4 +12,30 @@
   content: ">";
 }
 
+.feed {
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+  width: 90%;
+}
+.feed:hover .ig-overlay {
+  height: 100%;
+  opacity: 1;
+  left: 5%;
+  transition: 0.5s ease, transform 0.5s ease;
+  overflow: hidden;
+  width: 90%;
+}
+
+.ig-overlay {
+  background: rgba(0, 0, 0, 0.6);
+  opacity: 0;
+  left: 5%;
+  bottom: 0;
+  width: 90%;
+  position: absolute;
+  height: 100%;
+  overflow: hidden;
+}
+
 /*# sourceMappingURL=firstCard.css.map */

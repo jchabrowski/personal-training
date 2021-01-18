@@ -25,18 +25,24 @@ import '../FirstCard/firstCard.css'
     `)
 
     let arrayOfImages = data.allInstaNode.edges;
-    let amountOfImages = 8;
+    let AMOUNT_OF_IMAGES = 8;
 
-    let instagramFeed = arrayOfImages.slice(0, amountOfImages).map((item, i) => {
+    let instagramFeed = arrayOfImages.slice(0, AMOUNT_OF_IMAGES).map((item, i) => {
       return(
-        <div key={i} className="container col-3 px-auto py-1">
-          <Img fluid={item.node.localFile.childImageSharp.fluid} style={{height: '234px'}}/>
-        </div>)
+        <>
+        
+          <div key={i} className="container feed col-3 px-auto my-1">
+            <Img fluid={item.node.localFile.childImageSharp.fluid} style={{height: '234px'}}/>
+            <div className="ig-overlay">
+            </div>
+          </div>
+          
+        </>)
     })
 
     return (
       <div className="container frame py-3 px-4">
-        <h3 className="heading py-3">Podejrzyj mnie na instagramie</h3>
+        <h2 className="py-3">Podejrzyj mnie na instagramie</h2>
         <div className="container d-flex row align-items-center"> 
           {instagramFeed}
         </div>

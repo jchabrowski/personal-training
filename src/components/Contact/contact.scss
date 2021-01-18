@@ -3,9 +3,8 @@
   border-right: none;
   border-top: none;
   border-radius: 0;
-}
-#name-surname:focus, #email:focus, #message:focus {
-  border-radius: 5px;
-}
 
-/*# sourceMappingURL=contact.css.map */
+  &:focus {
+    border-radius: 5px;
+  }
+}
