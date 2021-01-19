@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: "/training",
   siteMetadata: {
     title: `Jakub Chabrowski`,
     description: `Trener Personalny Gdynia`,
