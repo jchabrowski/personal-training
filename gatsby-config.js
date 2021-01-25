@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: "/",
+  pathPrefix: "",
   siteMetadata: {
     title: `Jakub Chabrowski`,
     description: `Trener Personalny Gdynia`,
