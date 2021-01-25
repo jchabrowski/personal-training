@@ -1,6 +1,6 @@
-// import { Link } from "gatsby"
-import React, { useState, useRef, useEffect } from "react"
-import {Navbar, Nav } from 'react-bootstrap'
+import { Link } from "gatsby";
+import React, { useState, useRef, useEffect } from "react";
+import {Navbar, Nav } from 'react-bootstrap';
 import '../../styles/all.css'
 
 const SiteNavbar = () => {
@@ -21,11 +21,11 @@ const SiteNavbar = () => {
     }, [])
   return (
     <Navbar expand="md" fixed="top" style={{ transition: '1s ease', backgroundColor: navBackground ? 'white' : 'transparent'}}>
-      <Navbar.Brand href="" className="navBrand px-1">JC</Navbar.Brand>
+      <Link to="/" className="navLink px-1">JC</Link>
       <Nav className="mx-auto navInfo">
-        <Nav.Link href="about" className="navLink">O mnie</Nav.Link>
-        <Nav.Link href="training" className="navLink">Trening</Nav.Link>
-        <Nav.Link href="#contact" className="navLink">Kontakt</Nav.Link>
+        <Link to="/about/" className="navLink">O mnie</Link>
+        <Link to="/training/" className="navLink">Trening</Link>
+        <Link to="/contact/" className="navLink">Kontakt</Link>
       </Nav>
       <Nav>
         <Nav.Link>PL</Nav.Link>
