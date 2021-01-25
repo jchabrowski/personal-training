@@ -1,5 +1,5 @@
 import React from 'react';
-// import jakubPortret from '../../images/jakub-portret-square.jpg';
+import jakubPortret from '../../images/jakub-portret-square.jpg';
 import '../../styles/all.css';
 import './about-me.css';
 import { Link } from "gatsby";
@@ -16,7 +16,7 @@ const AboutMe = () => {
           <p>Współpracując z klientami skupiam się na podniesieniu ich ogólnej sprawności oraz rozwoju siły. Naturalnym efektem naszej współpracy są popularnie pożądane efekty, jak <span className="growth-style bold">redukcja tkanki tłuszczowej</span>, bądź <span className="growth-style bold">zwiększenie masy mięśniowej.</span></p>
         </div>
         <div className="container col-sm-12 col-md-6 py-3">
-          <img src={require("../../images/jakub-portret-square.jpg")} alt="jakub"></img>
+          <img src={jakubPortret} alt="jakubP"></img>
         </div>
       </div>
 
