@@ -25,7 +25,7 @@ const SiteNavbar = () => {
       <Nav className="mx-auto navInfo">
         <Link to="/about/" className="navLink">O mnie</Link>
         <Link to="/training/" className="navLink">Trening</Link>
-        <Link to="/contact/" className="navLink">Kontakt</Link>
+        <Link to="#contact" className="navLink">Kontakt</Link>
       </Nav>
       <Nav>
         <Nav.Link>PL</Nav.Link>
