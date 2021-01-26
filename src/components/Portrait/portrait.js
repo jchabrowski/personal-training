@@ -9,7 +9,7 @@ const Portrait = () => (
     </div>
     <div className="info">
       <h3>Moim celem jest <span className="growth-darker"> zadbanie o Twoje zdrowie</span></h3>
-      <button className="btn-lg btn-jumbo my-2" href="#">Dowiedz się więcej</button>
+      <button className="btn-lg btn-jumbo my-2">Dowiedz się więcej</button>
     </div>
   </>
 );

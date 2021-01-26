@@ -30,7 +30,6 @@ import '../FirstCard/firstCard.css'
     let instagramFeed = arrayOfImages.slice(0, AMOUNT_OF_IMAGES).map((item, i) => {
       return(
         <>
-        
           <div key={i} className="container feed col-3 px-auto my-1">
             <Img fluid={item.node.localFile.childImageSharp.fluid} style={{height: '234px'}}/>
             <div className="ig-overlay">

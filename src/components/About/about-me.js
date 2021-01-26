@@ -7,7 +7,7 @@ import { Link } from "gatsby";
 const AboutMe = () => {
   return (
     <>
-      <div className="container frame d-flex py-3 mt-5">
+      <div className="container frame d-flex py-3 mt-5" id="about">
         <div className="container col-md-12 col-lg-6 py-3">
           <h2>O mnie</h2>
           <p>Jestem magistrem fizjoterapii AWFiS Gdańsk, trenerem personalnym z wieloletnim doświadczeniem, pasjonatem układu ruchu człowieka i kinezjologii.</p>

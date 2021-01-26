@@ -1,18 +1,18 @@
 import React from 'react';
 import '../../../styles/all.css';
-import { Link } from 'gatsby';
 
 const TrainingCards = () => {
   return (
     <div className="card-deck px-auto mx-auto col-md-12 py-3">
     <div className="card pose-hold">
       <div className="card-body">
-        <h4 className="card-title">Pakiet 10 Treningów</h4>
-        <p className="card-text">Przeznaczony dla klientów chcących stale trenować pod moim okiem.</p>
-        <ul>
+      <h4 className="card-title">Pakiet Treningów</h4>
+        <p className="card-text">Jesteś zdecydowany/a na stałą współpracę?</p>
+        <ul className="no-decoration">
+          <li><strong>Pakiet 10 treningów</strong></li>
           <li>Monitorowanie postępów</li>
-          <li>Stała weryfikacja techniki</li>
-          <li>Praca na podstawie planu treningowego</li>
+          <li>Periodyzacja treningowa</li>
+          <li>Weryfikacja techniki</li>
         </ul>
         <button className="btn-lg btn-transparent">ZAPISZ SIĘ</button>
       </div>
@@ -21,23 +21,19 @@ const TrainingCards = () => {
       <div className="card-body">
         <h4 className="card-title">Pojedynczy trening</h4>
         <p className="card-text">Potrzebujesz pomocy z konkretnymi aspektami Twojego treningu?</p>
-        <ul>
+        <ul className="no-decoration">
           <li>Analiza techniki ćwiczeń</li>
           <li>Korygowanie błędów</li>
           <li>Indywidualna konsultacja</li>
         </ul>
-        <button className="btn-lg btn-transparent">ZAPISZ SIĘ</button>
+        <button href="/#contact" className="btn-lg btn-transparent">ZAPISZ SIĘ</button>
       </div>
     </div>
     <div className="card pose-pull">
       <div className="card-body">
         <h4 className="card-title">Współpraca online</h4>
-        <p className="card-text">Dowiedz się jakie możliwości niesie współpraca przez internet</p>
-        <ul>
-          <li>Treningi online</li>
-          <li>Układanie planów treningowych</li>
-        </ul>
-        <Link to="/online"><button className="btn-lg btn-transparent">SZCZEGÓŁY</button></Link>
+        <p className="card-text">Napisz do mnie, aby dowiedzieć się w jakiej formie prowadzę aktualnie współpracę online.</p>
+        <button className="btn-lg btn-transparent">NAPISZ</button>
       </div>
     </div>
   </div>

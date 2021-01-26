@@ -34,9 +34,10 @@ $growth-darker-color: #006E42;
   max-width: 70%;
   display: inline-block;
 
-  h2, h3 {
+  h3 {
     font-family: $Raleway-font;
     color: #f3f3f3;
+    font-size: 2rem;
   }
   .growth-darker {
     color: $growth-calm-color;

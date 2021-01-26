@@ -9,20 +9,20 @@ const CooperationCards = () => {
       <div className="card-body">
         <h4 className="card-title">Pakiet Treningów</h4>
         <p className="card-text">Jesteś zdecydowany/a na stałą współpracę?</p>
-        <ul id="no-decoration">
+        <ul className="no-decoration">
           <li><strong>Pakiet 10 treningów</strong></li>
           <li>Monitorowanie postępów</li>
           <li>Periodyzacja treningowa</li>
           <li>Weryfikacja techniki</li>
         </ul>
-        <button className="btn-lg btn-transparent">SZCZEGÓŁY</button>
+        <button className="btn-lg btn-transparent">ZAPISZ SIĘ</button>
       </div>
     </div>
     <div className="card pose-front">
       <div className="card-body">
         <h4 className="card-title">Pierwsza&nbsp;konsultacja</h4>
         <p>Czego możesz się spodziewać:</p>
-        <ul id="no-decoration">
+        <ul className="no-decoration">
           <li>Wywiad</li>
           <li>Trening</li>
           <li>Testy funkcjonalne</li>

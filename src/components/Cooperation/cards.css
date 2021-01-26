@@ -3,6 +3,6 @@
   bottom: 10%;
 } */
 
-#no-decoration {
+.no-decoration li {
   list-style: none;
 }
