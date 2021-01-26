@@ -63,6 +63,7 @@ body .content-wrapper {
 .card .card-body .card-title {
   color: #00B482;
   font-size: 1.2em;
+  font-weight: 400;
   text-transform: uppercase;
 }
 .card .card-body h4, .card .card-body p, .card .card-body ul li {
