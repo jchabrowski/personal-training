@@ -13,6 +13,7 @@ const TrainingCards = () => {
           <li>Monitorowanie postępów</li>
           <li>Periodyzacja treningowa</li>
           <li>Weryfikacja techniki</li>
+          <li className="price">1050 zł</li>
         </ul>
         <button className="btn-lg btn-transparent">ZAPISZ SIĘ</button>
       </div>
@@ -25,6 +26,7 @@ const TrainingCards = () => {
           <li>Analiza techniki ćwiczeń</li>
           <li>Korygowanie błędów</li>
           <li>Indywidualna konsultacja</li>
+          <li className="price">130 zł</li>
         </ul>
         <button href="/#contact" className="btn-lg btn-transparent">ZAPISZ SIĘ</button>
       </div>

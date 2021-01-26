@@ -8,12 +8,13 @@ const CooperationCards = () => {
     <div className="card pose-hold">
       <div className="card-body">
         <h4 className="card-title">Pakiet Treningów</h4>
-        <p className="card-text">Jesteś zdecydowany/a na stałą współpracę?</p>
+        <p className="card-text pb-0">Jesteś zdecydowany/a na stałą współpracę?</p>
         <ul className="no-decoration">
           <li><strong>Pakiet 10 treningów</strong></li>
           <li>Monitorowanie postępów</li>
           <li>Periodyzacja treningowa</li>
           <li>Weryfikacja techniki</li>
+          <li className="price">1050 zł</li>
         </ul>
         <button className="btn-lg btn-transparent">ZAPISZ SIĘ</button>
       </div>

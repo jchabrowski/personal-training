@@ -92,7 +92,6 @@ body {
     border: none;
 
     .card-body {
-
       .card-title {
         color: $growth-calm-color;
         // color: #eae5e4;
@@ -102,6 +101,13 @@ body {
       h4, p, ul li {
         color: #eae5e4;
         font-size: 1em;
+
+        &.price {
+          position: absolute;
+          right: 10%;
+          bottom: 17%;
+          font-weight: bold;
+        }
       }
     }
   
@@ -140,7 +146,7 @@ body {
     width: 80%;
     left: 10%;
     right: 10%;
-    bottom: 10%;
+    bottom: 5%;
     color: $growth-calm-color;
     background: transparent;
     border: 1px solid $contrast-font-color;

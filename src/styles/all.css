@@ -69,6 +69,12 @@ body .content-wrapper {
   color: #eae5e4;
   font-size: 1em;
 }
+.card .card-body h4.price, .card .card-body p.price, .card .card-body ul li.price {
+  position: absolute;
+  right: 10%;
+  bottom: 17%;
+  font-weight: bold;
+}
 .card:hover {
   transform: translate(0px, -10px);
 }
@@ -96,7 +102,7 @@ body .content-wrapper {
   width: 80%;
   left: 10%;
   right: 10%;
-  bottom: 10%;
+  bottom: 5%;
   color: #00B482;
   background: transparent;
   border: 1px solid white;
