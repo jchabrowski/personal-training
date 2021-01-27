@@ -1,5 +1,5 @@
 .portrait {
-  background-image: url("../../images/jakub-portret3.jpg");
+  background: linear-gradient(rgba(40, 40, 40, 0.25), rgba(30, 30, 30, 0.65)), url("../../images/jakub-portret3.jpg");
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: top center;
