@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'gatsby';
 import CooperationCards from './cooperation-cards';
 import '../../styles/all.css';
 import '../FirstCard/firstCard.css';

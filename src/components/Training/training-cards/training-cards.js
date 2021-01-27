@@ -15,7 +15,7 @@ const TrainingCards = () => {
           <li>Weryfikacja techniki</li>
           <li className="price">1050 zł</li>
         </ul>
-        <button className="btn-lg btn-transparent">ZAPISZ SIĘ</button>
+        <a href="#contact"><button className="btn-lg btn-transparent">ZAPISZ SIĘ</button></a>
       </div>
     </div>
     <div className="card pose-front">
@@ -28,14 +28,14 @@ const TrainingCards = () => {
           <li>Indywidualna konsultacja</li>
           <li className="price">130 zł</li>
         </ul>
-        <button href="/#contact" className="btn-lg btn-transparent">ZAPISZ SIĘ</button>
+        <a href="#contact"><button className="btn-lg btn-transparent">ZAPISZ SIĘ</button></a>
       </div>
     </div>
     <div className="card pose-pull">
       <div className="card-body">
         <h4 className="card-title">Współpraca online</h4>
         <p className="card-text">Napisz do mnie, aby dowiedzieć się w jakiej formie prowadzę aktualnie współpracę online.</p>
-        <button className="btn-lg btn-transparent">NAPISZ</button>
+        <a href="#contact"><button className="btn-lg btn-transparent">NAPISZ</button></a>
       </div>
     </div>
   </div>

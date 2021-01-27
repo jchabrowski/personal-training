@@ -21,7 +21,7 @@ const Training = () => {
           <p>Przeprowadzę z Tobą następnie ogólnorozwojowy trening, zawierający podstawowe testy funkcjonalne, dzięki którym będę mógł odnaleźć i ocenić "słabe ogniwa" w Twoim aparacie ruchu.</p>
           <p>Po takim spotkaniu będę posiadał niezbędną wiedzę aby dobrać odpowiednie środki i ułożyć dalszy plan naszej współpracy.</p>
           <p>koszt: 150 zł</p>
-          <button className="btn-training">Umów się na spotkanie</button>
+          <a href="#contact"><button className="btn-training">Umów się na spotkanie</button></a>
         </div>
         <div className="container d-flex col-md-12 col-lg-6 py-3 align-items-center">
           <img src={anthonySquare} alt="anthony"></img>

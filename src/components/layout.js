@@ -31,7 +31,6 @@ const Layout = ({ children }) => {
           <div className="container content-wrapper col-sm-12 px-0">{children}</div>
       </Col>
     </div>
-      
   )
 }
 

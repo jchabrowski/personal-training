@@ -3,6 +3,10 @@ $growth-calm-color: #00B482;
 .frame {
   border: 1px solid whitesmoke;
   border-radius: 15px;
+
+  &#about-me {
+    padding-top: 4rem !important;
+  }
 }
 
 #benefit-list {

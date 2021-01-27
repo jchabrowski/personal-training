@@ -6,11 +6,11 @@ import Training from '../components/Training/personal-training';
 import ContactForm from '../components/Contact/contact';
 import Footer from "../components/Footer/footer";
 
-  const About = () => {
+  const Info = () => {
     return (
       <>
         <Layout>
-          <SEO title="O mnie | Jakub Chabrowski"/>
+          <SEO title="Informacje | Jakub Chabrowski"/>
           <Training />
           <ContactForm />
         </Layout>
@@ -19,4 +19,4 @@ import Footer from "../components/Footer/footer";
     )
   }
 
-export default About
+export default Info

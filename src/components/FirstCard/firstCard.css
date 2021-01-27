@@ -2,6 +2,9 @@
   border: 1px solid whitesmoke;
   border-radius: 15px;
 }
+.frame#about-me {
+  padding-top: 4rem !important;
+}
 
 #benefit-list li {
   list-style: none;
