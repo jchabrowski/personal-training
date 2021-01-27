@@ -1,6 +1,7 @@
 import { Link } from "gatsby";
 import React, { useState, useRef, useEffect } from "react";
 import {Navbar, Nav } from 'react-bootstrap';
+import { AnchorLink } from "gatsby-plugin-anchor-links";
 import '../../styles/all.css'
 
 const SiteNavbar = () => {
@@ -25,7 +26,7 @@ const SiteNavbar = () => {
       <Nav className="mx-auto navInfo">
         <Link to="/about/" className="navLink">O mnie</Link>
         <Link to="/training/" className="navLink">Trening</Link>
-        <a href="#contact" className="navLink">Kontakt</a>
+        <AnchorLink to="/#contact" className="navLink stripped" stripHash>Kontakt</AnchorLink>
       </Nav>
       <Nav>
         <Nav.Link>PL</Nav.Link>

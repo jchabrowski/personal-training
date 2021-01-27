@@ -1,8 +1,8 @@
 import React from 'react';
 import jakubPortret from '../../images/jakub-portret-square.jpg';
+import { AnchorLink } from "gatsby-plugin-anchor-links";
 import '../../styles/all.css';
 import './about-me.css';
-import { Link } from "gatsby";
 
 const AboutMe = () => {
   return (
@@ -25,7 +25,7 @@ const AboutMe = () => {
           <h2>Treningi personalne</h2>
           <p>Zdecydowanie łatwiej zdecydować się na <span className="growth-style bold">podjęcie współpracy</span>, wiedząc na czym ma ona polegać.</p>
           <p>Dowiedz się czego możesz się spodziewać na naszym pierwszym treningu.</p>
-          <Link to="/training"><button className="btn-training">Pierwszy trening</button></Link>
+          <AnchorLink to="/training"><button className="btn-training">Pierwszy trening</button></AnchorLink>
         </div>
       </div>
     </>
