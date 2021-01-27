@@ -34,13 +34,12 @@ import '../FirstCard/firstCard.css'
             <Img fluid={item.node.localFile.childImageSharp.fluid} style={{height: '234px'}}/>
             <div className="ig-overlay">
             </div>
-          </div>
-          
+          </div> 
         </>)
     })
 
     return (
-      <div className="container frame py-3 px-4">
+      <div className="container frame py-3 px-4" data-sal="slide-up" delay="300">
         <h2 className="py-3">Podejrzyj mnie na instagramie</h2>
         <div className="container d-flex row align-items-center"> 
           {instagramFeed}

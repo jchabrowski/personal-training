@@ -6,6 +6,15 @@ module.exports = {
     author: `@jakubchabrowski`,
   },
   plugins: [
+    `gatsby-plugin-scroll-reveal`,
+    
+    {
+      resolve: `gatsby-plugin-scroll-reveal`,
+      options: {
+          threshold: 0.3,
+          once: true
+      }
+    },
     `gatsby-plugin-anchor-links`,
     `gatsby-plugin-sass`,
     {

@@ -4,8 +4,8 @@ import './firstCard.css';
 
 const FirstCard = () => {
   return (
-    <div className="container frame d-flex py-5 mt-5" id="about-me">
-      <div className="container mr-0 px-4 col-sm-12 col-md-6">
+    <div id="about-me" className="container frame d-flex py-5 mt-5">
+      <div className="container mr-0 px-4 col-sm-12 col-md-6" data-sal="slide-left" data-sal-delay="300">
         <h2>O mnie</h2>
         <p>Jestem magistrem fizjoterapii AWFiS Gdańsk, trenerem personalnym z wieloletnim doświadczeniem, pasjonatem układu ruchu człowieka i kinezjologii.</p>
         <p>W pracy z klientami priorytetem jest dla mnie nauczenie fundamentalnych wzorców ruchowych, umożliwiających bezpieczne:</p>
@@ -17,7 +17,7 @@ const FirstCard = () => {
           <li> Osiągnięcie Twoich indywidualnych celów sylwetkowych</li>
         </ul>
       </div>
-      <div className="container pl-0 ml-0 col-sm-12 col-md-6">
+      <div className="container pl-0 ml-0 col-sm-12 col-md-6" data-sal="slide-up">
         <img src={jakubSquare} alt="jakub"/>
       </div>
     </div>

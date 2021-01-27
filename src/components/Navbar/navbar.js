@@ -24,8 +24,8 @@ const SiteNavbar = () => {
     <Navbar expand="md" fixed="top" style={{ transition: '1s ease', backgroundColor: navBackground ? 'white' : 'transparent'}}>
       <Link to="/" className="navLink px-1">JC</Link>
       <Nav className="mx-auto navInfo">
-        <Link to="/about/" className="navLink">O mnie</Link>
-        <Link to="/training/" className="navLink">Trening</Link>
+        <AnchorLink to="/about/" className="navLink">O mnie</AnchorLink>
+        <AnchorLink to="/training/" className="navLink">Trening</AnchorLink>
         <AnchorLink to="/#contact" className="navLink stripped" stripHash>Kontakt</AnchorLink>
       </Nav>
       <Nav>
