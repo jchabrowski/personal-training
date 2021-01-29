@@ -54,50 +54,6 @@ body .content-wrapper {
   color: #00B482 !important;
 }
 
-.card {
-  min-height: 400px;
-  width: 100%;
-  transition: 0.3s;
-  border: none;
-}
-.card .card-body .card-title {
-  color: #00B482;
-  font-size: 1.2em;
-  font-weight: 400;
-  text-transform: uppercase;
-}
-.card .card-body h4, .card .card-body p, .card .card-body ul li {
-  color: #eae5e4;
-  font-size: 1em;
-}
-.card .card-body h4.price, .card .card-body p.price, .card .card-body ul li.price {
-  position: absolute;
-  right: 10%;
-  bottom: 17%;
-  font-weight: bold;
-}
-.card:hover {
-  transform: translate(0px, -10px);
-}
-.card.pose-hold {
-  background: linear-gradient(rgba(40, 40, 40, 0.85), rgba(15, 15, 15, 0.95)), url("../images/pose-hold.jpg");
-  background-size: 100%;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-.card.pose-front {
-  background: linear-gradient(rgba(40, 40, 40, 0.85), rgba(15, 15, 15, 0.95)), url("../images/pose-front.jpg");
-  background-size: 100%;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-.card.pose-pull {
-  background: linear-gradient(rgba(40, 40, 40, 0.85), rgba(15, 15, 15, 0.95)), url("../images/pose-pull.jpg");
-  background-size: 100%;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
 .btn-transparent {
   position: absolute;
   width: 80%;

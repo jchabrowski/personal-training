@@ -2,7 +2,7 @@ import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Layout from "../components/layout";
 import SEO from "../components/seo";
-import Training from '../components/Training/personal-training';
+import Faq from "../components/FAQ/faq";
 import ContactForm from '../components/Contact/contact';
 import Footer from "../components/Footer/footer";
 
@@ -11,8 +11,9 @@ import Footer from "../components/Footer/footer";
       <>
         <Layout>
           <SEO title="Informacje | Jakub Chabrowski"/>
-          <Training />
+          <div className="container py-5"></div>
           <ContactForm />
+          <Faq />
         </Layout>
         <Footer />
       </>

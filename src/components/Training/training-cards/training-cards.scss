@@ -1,0 +1,62 @@
+  $growth-calm-color: #00B482;
+  
+  .card-offer {
+    min-height: 400px;
+    width: 100%;
+    transition: 0.3s;
+    border: none;
+
+    .card-body {
+      .card-title {
+        color: $growth-calm-color;
+        // color: #eae5e4;
+        font-size: 1.2em;
+        font-weight: 400;
+        text-transform: uppercase;
+      }
+      h4, p, ul li {
+        color: #eae5e4;
+        font-size: 1em;
+
+        &.price {
+          position: absolute;
+          right: 10%;
+          bottom: 17%;
+          font-weight: bold;
+        }
+      }
+    }
+  
+    &:hover {
+      transform: translate(0px, -10px)
+    }
+
+    &.pose-hold {
+      background: 
+        linear-gradient(rgba(40, 40, 40, 0.85),rgba(15, 15, 15, 0.95)),
+        url('../../../images/pose-hold.jpg');
+      background-size: 100%;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+    &.pose-front {
+      background: 
+        linear-gradient(rgba(40, 40, 40, 0.85),rgba(15, 15, 15, 0.95)),
+        url('../../../images/pose-front.jpg');
+      background-size: 100%;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+    &.pose-pull {
+      background: 
+        linear-gradient(rgba(40, 40, 40, 0.85),rgba(15, 15, 15, 0.95)),
+        url('../../../images/pose-pull.jpg');
+      background-size: 100%;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+  }
+
+  .no-decoration li {
+    list-style: none;
+  }
