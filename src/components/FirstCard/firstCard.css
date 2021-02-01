@@ -1,5 +1,5 @@
 .frame {
-  border: 1px solid whitesmoke;
+  border: none;
   border-radius: 15px;
 }
 .frame#about-me {
@@ -8,7 +8,6 @@
 
 .img-box {
   border-radius: 20px;
-  box-shadow: 0 12px 40px 0 rgb(95 95 95 / 50%);
 }
 
 #benefit-list li {
