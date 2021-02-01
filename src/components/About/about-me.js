@@ -3,6 +3,7 @@ import jakubPortret from '../../images/jakub-portret-square.jpg';
 import { AnchorLink } from "gatsby-plugin-anchor-links";
 import '../../styles/all.css';
 import './about-me.css';
+import '../FirstCard/firstCard.css'
 
 const AboutMe = () => {
   return (
@@ -16,7 +17,7 @@ const AboutMe = () => {
           <p>Współpracując z klientami skupiam się na podniesieniu ich ogólnej sprawności oraz rozwoju siły. Naturalnym efektem naszej współpracy są popularnie pożądane efekty, jak <span className="growth-style bold">redukcja tkanki tłuszczowej</span>, bądź <span className="growth-style bold">zwiększenie masy mięśniowej.</span></p>
         </div>
         <div className="container col-sm-12 col-md-6 py-3" data-sal="slide-up">
-          <img src={jakubPortret} alt="jakubP"></img>
+          <img src={jakubPortret} alt="jakub" className="img-box"></img>
         </div>
       </div>
 

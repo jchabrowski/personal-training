@@ -6,7 +6,7 @@ import '../FirstCard/firstCard.css';
 
 const Cooperation = () => {
   return (
-    <div className="container frame d-flex flex-column px-4 mx-auto my-3" data-sal="slide-up">
+    <div className="container frame d-flex flex-column px-4 mx-auto my-5" data-sal="slide-up">
       <h2 className="py-3">Współpraca</h2>
       <p>Szukasz stałej opieki trenerskiej? Pojedynczej sesji treningowej? Może interesuje Cię współpraca online?</p>
       <CooperationCards />

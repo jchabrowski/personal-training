@@ -18,7 +18,7 @@ const Footer = () => {
         <div>
           <p>developed by <a href="https://github.com/jchabrowski" target="_blank" rel="noreferrer" className="stealth-style">jchabrowski</a></p>
           <p className="mb-0">Jesteś trenerem? Chciałbyś mieć taką stronę?</p>
-          <p><Link to="/#contact" className="stealth-style">Napisz do mnie</Link></p>
+          <p><Link to="/info/" className="stealth-style">Napisz do mnie</Link></p>
         </div>
       </div>
     </div>

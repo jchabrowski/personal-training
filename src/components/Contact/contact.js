@@ -3,12 +3,12 @@ import './contact.css'
 
 const ContactForm = () => {
   return (
-    <div className="container frame contact py-3 mt-3 px-4" id="contact">
+    <div className="container frame contact py-5 mt-3 px-4" id="contact">
       <h2 className="py-3">Skontaktuj się ze mną</h2>
       <form>
         <row className="d-flex py-3">
           <div className="form-group col-md-6">
-            <input type="name" className="form-control" id="name-surname" placeholder="Imię i nazwisko"/>
+            <input type="name" className="form-control" id="name-surname" placeholder="Imię"/>
           </div>
           <div className="form-group col-md-6">
             <input type="email" className="form-control" id="email" placeholder="Wprowadź swój adres email"/>

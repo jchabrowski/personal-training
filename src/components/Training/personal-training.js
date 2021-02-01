@@ -4,6 +4,7 @@ import TrainingCards from './training-cards/training-cards';
 import { AnchorLink } from "gatsby-plugin-anchor-links";
 import '../../styles/all.css';
 import './training.css';
+import '../FirstCard/firstCard.css'
 
 const Training = () => {
   return (
@@ -25,7 +26,7 @@ const Training = () => {
           <AnchorLink to="/training/#contact" className="stripped" stripHash><button className="btn-training">Umów się na spotkanie</button></AnchorLink>
         </div>
         <div className="container d-flex col-md-12 col-lg-6 py-3 align-items-center" data-sal="slide-up">
-          <img src={anthonySquare} alt="anthony"></img>
+          <img src={anthonySquare} alt="anthony" className="img-box"></img>
         </div>
       </div>
 

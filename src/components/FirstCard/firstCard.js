@@ -18,7 +18,7 @@ const FirstCard = () => {
         </ul>
       </div>
       <div className="container pl-0 ml-0 col-sm-12 col-md-6" data-sal="slide-up">
-        <img src={jakubSquare} alt="jakub"/>
+        <img src={jakubSquare} alt="jakub" className="img-box"/>
       </div>
     </div>
   )

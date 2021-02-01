@@ -39,7 +39,7 @@ import '../FirstCard/firstCard.css'
     })
 
     return (
-      <div className="container frame py-3 px-4" data-sal="slide-up" delay="300">
+      <div className="container frame py-5 px-4" data-sal="slide-up" delay="300">
         <h2 className="py-3">Podejrzyj mnie na instagramie</h2>
         <div className="container d-flex row align-items-center"> 
           {instagramFeed}

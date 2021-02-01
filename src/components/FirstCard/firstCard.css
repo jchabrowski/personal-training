@@ -6,6 +6,11 @@
   padding-top: 4rem !important;
 }
 
+.img-box {
+  border-radius: 20px;
+  box-shadow: 0 12px 40px 0 rgb(95 95 95 / 50%);
+}
+
 #benefit-list li {
   list-style: none;
 }

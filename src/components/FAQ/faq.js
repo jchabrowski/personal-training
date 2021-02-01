@@ -36,7 +36,7 @@ const Faq = () => {
             W jakie dni i o której godzinie możemy się spotkać?
           </Accordion.Toggle>
           <Accordion.Collapse eventKey="3">
-            <Card.Body>Mój grafik zmienia się z tygodnia na tydzień. Napisz do mnie wiadomość aby ustalić dogodny termin treningu :)</Card.Body>
+            <Card.Body>Mój grafik regularnie ulega zmianie. Napisz do mnie wiadomość aby ustalić dogodny termin treningu :)</Card.Body>
           </Accordion.Collapse>
         </Card>
       </Accordion>
