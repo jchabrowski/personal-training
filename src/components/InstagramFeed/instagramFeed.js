@@ -6,7 +6,7 @@ import '../FirstCard/firstCard.css'
   const InstagramFeed = () => {
     const data = useStaticQuery(graphql`
       {
-        allInstaNode {
+        allInstaNode(sort: { fields: timestamp, order: DESC }, limit: 8) {
           edges {
             node {
               localFile {
@@ -25,9 +25,7 @@ import '../FirstCard/firstCard.css'
     `)
 
     let arrayOfImages = data.allInstaNode.edges;
-    let AMOUNT_OF_IMAGES = 8;
-
-    let instagramFeed = arrayOfImages.slice(0, AMOUNT_OF_IMAGES).map((item, i) => {
+    let instagramFeed = arrayOfImages.map((item, i) => {
       return(
         <>
           <div key={i} className="container feed col-3 px-auto my-1">

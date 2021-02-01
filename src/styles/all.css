@@ -8,6 +8,7 @@ body h2, body h3, body h4 {
   font-family: "Raleway", sans-serif;
   color: #333333;
   font-weight: 500;
+  font-size: 2rem;
 }
 body h2h2, body h3h2, body h4h2 {
   font-size: 2rem;
